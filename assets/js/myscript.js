@@ -1,8 +1,8 @@
-const nome = prompt("Qual è il tuo nome?");
+const nome = prompt("What's your name?");
 
-const cognome = prompt("Qual è il tuo cognome?");
+const cognome = prompt("What's your surname?");
 
-const colorePreferito = prompt("Qual è il tuo colore preferito?");
+const colorePreferito = prompt("What's your favourite color?");
 
 let passwordGenerata = `${nome}${cognome}${colorePreferito}21`;
 console.log(passwordGenerata);
